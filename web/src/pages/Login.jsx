@@ -2,7 +2,7 @@
 
 import { Button, Form, Input } from 'antd';
 import { useNavigate } from "react-router-dom";
-
+import Logo from "../assets/logo.svg";
 
 const Login = () => {
     const navigate = useNavigate();
@@ -18,7 +18,12 @@ const Login = () => {
 
     return (
         <div style={{ width: '100%' }}>
-            <h2 style={{ textAlign: 'center', padding: '40px 10px' }}>IUMRS-ICEM2024
+
+            <h2 style={{ textAlign: 'center', padding: '40px 10px' }}>
+                <img src={Logo} style={{ margin: 'auto', display: 'block', marginBottom: '30px', height: '100px', objectFit: 'contain' }}  >
+                </img>
+
+                IUMRS-ICEM2024
                 Conference System
                 <span style={{ display: 'block' }}>(For Staff)</span>
             </h2>
