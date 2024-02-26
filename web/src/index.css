@@ -13,6 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
   padding: 20px;
   padding-top: 0;
+  color: black;
+  background-color: white;
 }
 
 /* 
