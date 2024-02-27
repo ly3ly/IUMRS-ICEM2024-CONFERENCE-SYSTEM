@@ -6,3 +6,4 @@ fabfile.py
 go.sum
 debug
 iumrs-conference
+.DS_Store
